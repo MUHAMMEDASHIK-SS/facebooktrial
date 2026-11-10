@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.main {
+    background-color: #cccccc;
+    height: 117vh;
+    width: 100%;
+}
+
+/* top div 2 side style */
+
+.left {
+    background-color: #ffffff;
+    height: 100vh ;
+    width: 43%;
+}
+.right {
+    background-color: #ffffff;
+    height: 100vh ;
+    width: 57.2%;
+}
+
+/* right side of the page */
+
+.main1 {
+    display: flex;
+    position: relative;
+    height: 100%;
+}
+.main1 img {
+    margin: auto;
+    width: 71.8%;
+    height: 90%;
+    padding-left: 19.8%;
+    padding-bottom: 15%;
+}
+.righttop {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: white;
+}
+.rt1 {
+    position: absolute;
+    width: 100%;
+    top: 6.5%;
+    left: 0;
+    right: 0;
+    height: 9.5%;
+}
+.rt1 img {
+    margin: auto;
+    width: 7%;
+    height: 90%;
+    padding-left:5.2%;
+    padding-top: 0.25%;
+}
+.rt2 {
+    position: absolute;
+    width: 100%;
+    top: 16%;
+    left: 0;
+    right: 0;
+    height: 40%;
+    margin-top: 23.6%;
+}
+h1 {
+    color: #111112;
+    padding-left: 4.5%;
+    font-size: 375%;
+    font-family:"poppins", sans-serif;
+    margin-top: 2%;
+    line-height: 44%;
+}
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    gap: 0.15%;
+   
+}
+
+
+/* left side of the page */
+
+#left1 {
+    padding:8.5%;
+   padding-top: 17%;
+}
+#lt{
+    font-family: "helvetica", arial, sans-serif;
+    font-weight:normal;
+    font-size: 110%;
+}
+#logform {
+    display:flex;
+    flex-direction: column;
+    gap:12px;
+    margin-top: 1.6%;
+}
+form input{
+    padding: 3.4%;
+    border-radius: 14px;
+    border: 1px solid #bfbfbf;
+    font-size: 15px;   
+}
+button{
+    padding: 2.2%;
+    border-radius: 14px;
+    border: 1px solid blue;
+    background-color: #1877f2;
+    color: white;
+    font-size: 15px;
+    margin-top: 3%;
+    cursor: pointer;
+
+}
+#metalogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    height: 5%;
+    width: 100%;
+    padding-top: 0%;
+    margin-top:0%;
+}
+#metalogo img {
+    width: 3%;
+    height: 3%;
+    padding-right: 1%;
+}
+/* bottom side of the page */
+
+.bottom {
+    background-color: white;
+    height: 16.9%;
+    width: 100%;
+    margin-top: 0.1%;
+}
+.bottom h3 {
+    color: #606363;
+    margin-left: 14.8%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1.9%;
+    font-family: "helvetica", arial, sans-serif;
+    font-weight: lighter;
+    font-size: 90%;
+}
